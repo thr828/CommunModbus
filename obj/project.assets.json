@@ -1,0 +1,306 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+        "type": "package",
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "8.0.0-preview.5.23280.8",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "8.0.0-preview.5.23280.8",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "8.0.0-preview.5.23280.8",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "8.0.0-preview.5.23280.8",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "8.0.0-preview.5.23280.8"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          }
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          }
+        }
+      },
+      "System.IO.Ports/8.0.0-preview.5.23280.8": {
+        "type": "package",
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "8.0.0-preview.5.23280.8"
+        },
+        "compile": {
+          "lib/net7.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net7.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net7.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+      "sha512": "3p8NMqEK7vz+QYmCmybewcfvkenC2ktkydTjyN3ynQ+Xvwvl7kXVQN3Tmu92ETVEOahquOb74UOysdpJCBh9KA==",
+      "type": "package",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/8.0.0-preview.5.23280.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.linux-arm.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+        "runtime.linux-arm.runtime.native.system.io.ports.nuspec",
+        "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+      "sha512": "W5da9/ZfJhEymJwJXQHU07GodJ9KaiqF5qmDU9c8Qk45EHNWcd8VON1SNA2txj5Y7MQzUaBr84ZS3dP7CEO8UQ==",
+      "type": "package",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/8.0.0-preview.5.23280.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.linux-arm64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+        "runtime.linux-arm64.runtime.native.system.io.ports.nuspec",
+        "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+      "sha512": "ydADxe84RX0ilskXlCr6cbG2de5A2LX6uT/91MsLY1mC2ZWW73eyEAIXJedGlfS9ui/oWjwrrqXS7ftPe0p18w==",
+      "type": "package",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/8.0.0-preview.5.23280.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.linux-x64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+        "runtime.linux-x64.runtime.native.system.io.ports.nuspec",
+        "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+      "sha512": "DpReFekGMDaptyEiJIJOIMzesk9dflYArZwWIf3LgSnpmwwXaw5clH8NTZ7dPBvkepmfUtQg2LuO8Oy87bnm5w==",
+      "type": "package",
+      "path": "runtime.native.system.io.ports/8.0.0-preview.5.23280.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+        "runtime.native.system.io.ports.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "runtime.osx-arm64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+      "sha512": "AM5HcD2Cwgn2OhsInbGjo+eTzLO3JvdUOAaZhvc9zmlKMy+f20aJz7aQQs3wMWURb8MTF2352RDjzsgauNzFuw==",
+      "type": "package",
+      "path": "runtime.osx-arm64.runtime.native.system.io.ports/8.0.0-preview.5.23280.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.osx-arm64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+        "runtime.osx-arm64.runtime.native.system.io.ports.nuspec",
+        "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/8.0.0-preview.5.23280.8": {
+      "sha512": "ZWEUOuz8djOD4rbSTMSieFbQJ/plLmlWL0ocespRHsb/3plevTVcUYM6hoU2es/hwFldKG4Wv4A7M2iBrmz7gw==",
+      "type": "package",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/8.0.0-preview.5.23280.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.osx-x64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+        "runtime.osx-x64.runtime.native.system.io.ports.nuspec",
+        "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.IO.Ports/8.0.0-preview.5.23280.8": {
+      "sha512": "YxHrShcibr/psvau0R+3fTTrn2zT9aVOAlFXFzY3YoURPeLQX26NegN7RS2bQ2RkSg90pTIcYnxA5mOUGTaaig==",
+      "type": "package",
+      "path": "system.io.ports/8.0.0-preview.5.23280.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Ports.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Ports.targets",
+        "lib/net462/System.IO.Ports.dll",
+        "lib/net462/System.IO.Ports.xml",
+        "lib/net6.0/System.IO.Ports.dll",
+        "lib/net6.0/System.IO.Ports.xml",
+        "lib/net7.0/System.IO.Ports.dll",
+        "lib/net7.0/System.IO.Ports.xml",
+        "lib/net8.0/System.IO.Ports.dll",
+        "lib/net8.0/System.IO.Ports.xml",
+        "lib/netstandard2.0/System.IO.Ports.dll",
+        "lib/netstandard2.0/System.IO.Ports.xml",
+        "runtimes/unix/lib/net6.0/System.IO.Ports.dll",
+        "runtimes/unix/lib/net6.0/System.IO.Ports.xml",
+        "runtimes/unix/lib/net7.0/System.IO.Ports.dll",
+        "runtimes/unix/lib/net7.0/System.IO.Ports.xml",
+        "runtimes/unix/lib/net8.0/System.IO.Ports.dll",
+        "runtimes/unix/lib/net8.0/System.IO.Ports.xml",
+        "runtimes/win/lib/net6.0/System.IO.Ports.dll",
+        "runtimes/win/lib/net6.0/System.IO.Ports.xml",
+        "runtimes/win/lib/net7.0/System.IO.Ports.dll",
+        "runtimes/win/lib/net7.0/System.IO.Ports.xml",
+        "runtimes/win/lib/net8.0/System.IO.Ports.dll",
+        "runtimes/win/lib/net8.0/System.IO.Ports.xml",
+        "system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+        "system.io.ports.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "System.IO.Ports >= 8.0.0-preview.5.23280.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\59204\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\HALCON\\ComDe\\ComDe.csproj",
+      "projectName": "ComDe",
+      "projectPath": "D:\\HALCON\\ComDe\\ComDe.csproj",
+      "packagesPath": "C:\\Users\\59204\\.nuget\\packages\\",
+      "outputPath": "D:\\HALCON\\ComDe\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\59204\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "System.IO.Ports": {
+            "target": "Package",
+            "version": "[8.0.0-preview.5.23280.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

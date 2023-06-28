@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "q99Ulxz1KQXGfG6oqhZuEhaq7vuokTX6CF2ha8XcXP/HJUp/A/MYc2Fw3cPv+HTYkzKt7zlKgIGCibod/zeKAQ==",
+  "success": true,
+  "projectFilePath": "D:\\HALCON\\ComDe\\ComDe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\59204\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\59204\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.linux-arm64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\59204\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.linux-x64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\59204\\.nuget\\packages\\runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\59204\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.osx-arm64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\59204\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.osx-x64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\59204\\.nuget\\packages\\system.io.ports\\8.0.0-preview.5.23280.8\\system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512"
+  ],
+  "logs": []
+}
