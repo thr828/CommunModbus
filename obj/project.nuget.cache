@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q99Ulxz1KQXGfG6oqhZuEhaq7vuokTX6CF2ha8XcXP/HJUp/A/MYc2Fw3cPv+HTYkzKt7zlKgIGCibod/zeKAQ==",
+  "dgSpecHash": "08m/W4q7x9gBysTIi5djIjWXm/i9sFoi9By8mfFDSZfp5bry0QIv6qO3peD6VU30CSlUb6ysnjzSfItZCkdwIA==",
   "success": true,
-  "projectFilePath": "D:\\HALCON\\ComDe\\ComDe.csproj",
+  "projectFilePath": "D:\\HALCON\\ComDe\\CommunModbus\\ComDe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\59204\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\59204\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\8.0.0-preview.5.23280.8\\runtime.linux-arm64.runtime.native.system.io.ports.8.0.0-preview.5.23280.8.nupkg.sha512",

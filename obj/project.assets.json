@@ -239,11 +239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HALCON\\ComDe\\ComDe.csproj",
+      "projectUniqueName": "D:\\HALCON\\ComDe\\CommunModbus\\ComDe.csproj",
       "projectName": "ComDe",
-      "projectPath": "D:\\HALCON\\ComDe\\ComDe.csproj",
+      "projectPath": "D:\\HALCON\\ComDe\\CommunModbus\\ComDe.csproj",
       "packagesPath": "C:\\Users\\59204\\.nuget\\packages\\",
-      "outputPath": "D:\\HALCON\\ComDe\\obj\\",
+      "outputPath": "D:\\HALCON\\ComDe\\CommunModbus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

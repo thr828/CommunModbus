@@ -2,6 +2,7 @@
 using System.IO.Ports;
 using ComDe;
 
+System.Console.WriteLine(20 >> 4);
 Console.WriteLine("Hello, World!");
 SerialPort serialPort = new SerialPort();
 

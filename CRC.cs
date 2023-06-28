@@ -37,7 +37,7 @@ namespace ComDe
             return crc16;
         }
     
-          public static byte[] CRC16_1(byte[] data)
+        public static byte[] CRC16_1(byte[] data)
         {            
             int len = data.Length;
             if (len > 0)
@@ -49,7 +49,7 @@ namespace ComDe
                     crc = (ushort)(crc ^ (data[i]));
                     for (int j = 0; j < 8; j++)
                     {
-                        crc = (crc & 1) != 0 ? (ushort)((crc >> 1) ^ 0xA001) : (ushort)(crc >> 1);
+                        crc = (crc & 1) == 1 ? (ushort)((crc >> 1) ^ 0xA001) : (ushort)(crc >> 1);
                     }
                 }
                 byte hi = (byte)((crc & 0xFF00) >> 8);  //高位置
